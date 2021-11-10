@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.parent {
+    margin: auto;
+    width: 1100px;
+    height: 600px;
+    position: relative;
+    padding: 50px;
+    background: black;
+}
+.box-horizontal-head {
+    width: 1000px;
+    height: 80px;
+    background-color: gray;
+    position: absolute;
+}
+.box {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    background-color: yellow;
+    left: 50px;
+}
+.row-1 {
+    top: 190px;
+}
+.row-2 {
+    bottom: 50px;
+}
+.box-horizontal {
+    width: 800px;
+    height: 150px;
+    background-color: orange;
+    position: absolute;
+    right: 50px;
+}
